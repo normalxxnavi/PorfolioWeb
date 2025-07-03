@@ -1,5 +1,13 @@
-import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.jsx";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { FluentProvider, webLightTheme } from '@fluentui/react-components';
 
-createRoot(document.getElementById("root")).render(<App />);
+import App from './App';
+
+const root = createRoot(document.getElementById('root'));
+
+root.render(
+  <FluentProvider theme={webLightTheme}>
+    <App />
+  </FluentProvider>,
+);
