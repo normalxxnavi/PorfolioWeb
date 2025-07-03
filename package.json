@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@fluentui/react-components": "^9.66.5",
+    "@tailwindcss/vite": "^4.1.11",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
